@@ -10,8 +10,7 @@ export function Footer({ onOpenPilot }: FooterProps) {
       <div className="container footer-inner">
         <div>
           <a className="wordmark" href="#home">
-            <span className="wordmark-mark" aria-hidden="true" />
-            <span>SiteVerity</span>
+            SiteVerity
           </a>
           <p className="footer-brand-tagline">
             Contract delivery evidence for UK multi-site cleaning.

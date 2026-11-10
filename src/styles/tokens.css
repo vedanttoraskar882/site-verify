@@ -33,15 +33,13 @@
   --missed-border: #e3c0c0;
   --missed-ink: #7a2c2c;
 
-  /* Typography */
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  --font-mono: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas,
-    "Liberation Mono", monospace;
+  /* Typography — Locally Bundled Inter Variable */
+  --font-sans: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
   /* Spacing & Layout Scale */
   --container-max: 74rem;
-  --header-height: 4.25rem;
+  --header-height: 4.35rem;
   --space-xs: 0.5rem;
   --space-sm: 0.75rem;
   --space-md: 1.25rem;

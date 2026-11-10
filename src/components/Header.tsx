@@ -42,8 +42,7 @@ export function Header({ onOpenPilot, menuToggleRef }: HeaderProps) {
     >
       <div className="container header-inner">
         <a className="wordmark" href="#home">
-          <span className="wordmark-mark" aria-hidden="true" />
-          <span>SiteVerity</span>
+          SiteVerity
         </a>
 
         <nav className="desktop-nav" aria-label="Primary navigation">

@@ -127,7 +127,6 @@ export function PilotDialog({ open, onClose }: PilotDialogProps) {
         role="dialog"
         aria-modal="true"
         aria-labelledby="pilot-dialog-title"
-        aria-describedby="pilot-dialog-notice"
       >
         <div className="dialog-header">
           <h2 id="pilot-dialog-title" className="dialog-title">
@@ -143,11 +142,6 @@ export function PilotDialog({ open, onClose }: PilotDialogProps) {
             <span>Close</span>
           </button>
         </div>
-
-        <p id="pilot-dialog-notice" className="dialog-notice">
-          This form saves your pilot request in this browser only. Your details
-          are not sent to SiteVerity.
-        </p>
 
         {feedback && (
           <div
